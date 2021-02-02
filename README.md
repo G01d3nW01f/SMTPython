@@ -4,6 +4,9 @@ smtp exploit script
 
 CVE-2020-7247
 
+RemoteCodeExecution
+
+
 usage:
 
 ./SMTPython.py <RemoteHOST> <PORT> <Command> <name@host>

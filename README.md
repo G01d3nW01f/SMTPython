@@ -9,7 +9,7 @@ RemoteCodeExecution
 
 usage:
 
-./SMTPython.py <RemoteHOST> <PORT> <Command> <name host>
+./SMTPython.py <RemoteHOST> <PORT> <command> <name@host>
   
 example:
 
